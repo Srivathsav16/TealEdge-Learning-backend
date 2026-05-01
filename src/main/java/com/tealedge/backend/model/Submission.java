@@ -26,7 +26,7 @@ public class Submission {
     private String fileName;
     private String fileType;
     
-    @Column(columnDefinition = "LONGTEXT")
+    @Column(columnDefinition = "TEXT")
     private String fileData;
 
     public Submission() {}
